@@ -30,7 +30,7 @@ sleep(1)
 pc = choice(jogadas) #escolhe uma das opções possíveis no jogo
 print('E eu escolhi...')
 sleep(1)
-print('\n{}!!!'.format(pc))
+print('\n{}!!!'.format(pc)) 
 
 if pc == escolha:
     sleep(1)
