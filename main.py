@@ -7,8 +7,8 @@ while True:
     tela_inicial = input(
         '{}\n       \033[36mJOKENPO!\033[0m'
         '\n\n     \033[33m[ 1 ] JOGAR'
-        '\n     [ 2 ] REGRAS'
-        '\n     [ 3 ] SAIR\033[0m\n{}'
+
+        '\n     [ 2 ] SAIR\033[0m\n{}'
         '\n \033[35m-->\033[0m '
         .format('='*22 , '='*22)
     )
@@ -17,9 +17,6 @@ while True:
         print ('jogo')
 
     elif tela_inicial == '2':
-        print('regras')
-
-    elif tela_inicial == '3':
         sleep(0.2)
         system('cls')
 
