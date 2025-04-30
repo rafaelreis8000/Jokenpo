@@ -71,7 +71,50 @@ while True:
             system('cls')
             print('{}\n\n\n\n         \033[36mPO!\033[0m \n\n{}'.format('='*22 , '='*22))
             sleep(1)
-            system('cls')        
+            system('cls')
+
+            if pc == escolha:
+                sleep(1)
+                system('cls')
+                print('{}\n\n\n       \033[36mEMPATE!!\033[0m\n\n\n\n{}'.format('='*22 , '='*22))
+                break
+
+            elif pc == 'PEDRA' and escolha == 'PAPEL':
+                sleep(1)
+                system('cls')
+                print('{}\n\n\n       \033[36mPERDI!!!\033[0m\n\n\n\n{}'.format('='*22 , '='*22))
+                break
+
+            elif pc == 'PEDRA' and escolha == 'TESOURA':
+                sleep(1)
+                system('cls')
+                print('{}\n\n\n       \033[36mGANHEI!!\033[0m\n\n\n\n{}'.format('='*22 , '='*22))
+                break
+
+            elif pc == 'PAPEL' and escolha == 'PEDRA':
+                sleep(1)
+                system('cls')
+                print('{}\n\n\n       \033[36mGANHEI!!\033[0m\n\n\n\n{}'.format('='*22 , '='*22))
+                break
+
+            elif pc == 'PAPEL' and escolha == 'TESOURA':
+                sleep(1)
+                system('cls')
+                print('{}\n\n\n       \033[36mPERDI!!!\033[0m\n\n\n\n{}'.format('='*22 , '='*22))
+                break
+
+            elif pc == 'TESOURA' and escolha == 'PEDRA':
+                sleep(1)
+                system('cls')
+                print('{}\n\n\n       \033[36mPERDI!!!\033[0m\n\n\n\n{}'.format('='*22 , '='*22))
+                break
+
+            elif pc == 'TESOURA' and escolha == 'PAPEL':
+                sleep(1)
+                system('cls')
+                print('{}\n\n\n       \033[36mGANHEI!!\033[0m\n\n\n\n{}'.format('='*22 , '='*22))
+                break        
+
 
 
 
