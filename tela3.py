@@ -1,0 +1,1 @@
+print('{}\n\n       \033[36mESCOLHI\033[0m \n      \033[33m{}!!\033[0m\n\n\n{}'.format('='*22 , 'TESOURA' , '='*22))

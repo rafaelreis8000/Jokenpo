@@ -54,7 +54,25 @@ while True:
         system('cls')
         print()
         
-        
+        while True:
+            sleep(0.2)
+            system('cls')
+            print('{}\n\n\n       \033[36mESCOLHI\033[0m \n\n\n{}'.format('='*22 , '='*22))
+            sleep(1)
+            system('cls')
+            print('{}\n\n\n       \033[36m{}!!!\033[0m \n\n\n{}'.format('='*22 , pc , '='*22))
+            sleep(1)
+            system('cls')
+            print('{}\n\n         \033[36mJO!\033[0m \n\n\n\n{}'.format('='*22 , '='*22))
+            sleep(0.5)
+            system('cls')
+            print('{}\n\n\n         \033[36mKEN\033[0m \n\n\n{}'.format('='*22 , '='*22))
+            sleep(0.5)
+            system('cls')
+            print('{}\n\n\n\n         \033[36mPO!\033[0m \n\n{}'.format('='*22 , '='*22))
+            sleep(1)
+            system('cls')        
+
 
 
 
